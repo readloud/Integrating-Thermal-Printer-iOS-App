@@ -2,6 +2,8 @@
 
 Pesan error **"Tidak didukung di browser ini"** untuk koneksi USB dan Bluetooth di iOS adalah **kendala fundamental dari Safari/WebKit**, bukan bug pada aplikasi Anda.
 
+![Alt Text](https://github.com/readloud/IntegratingThermal-Printer-iOS-App/blob/main/Existing%20Web%20App/2026042269e8904511d5b.jpg)
+
 ## 🔍 Penyebab Utama
 
 Apple dengan sengaja **tidak mendukung** WebUSB dan Web Bluetooth API di Safari karena alasan privasi dan keamanan. Ini berlaku untuk **semua browser di iOS** (Chrome, Firefox, dll.) karena Apple mewajibkan semua browser menggunakan mesin WebKit yang sama.
