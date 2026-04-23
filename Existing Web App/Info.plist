@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Izin Bluetooth untuk BLE -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Aplikasi ini memerlukan akses Bluetooth untuk terhubung ke printer thermal</string>
+    
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>Aplikasi ini memerlukan akses Bluetooth untuk terhubung ke printer thermal</string>
+    
+    <!-- Izin Local Network untuk menemukan printer di jaringan -->
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Aplikasi perlu akses jaringan untuk menemukan printer WiFi</string>
+    
+    <!-- Service Bonjour untuk printer -->
+    <key>NSBonjourServices</key>
+    <array>
+        <string>_printer._tcp</string>
+        <string>_ipp._tcp</string>
+        <string>_pdl-datastream._tcp</string>
+    </array>
+    
+    <!-- Supported external accessory protocols -->
+    <key>UISupportedExternalAccessoryProtocols</key>
+    <array>
+        <string>com.rongta.thermalprinter</string>
+        <string>com.epson.escpos</string>
+    </array>
+</dict>
+</plist>

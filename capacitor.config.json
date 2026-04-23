@@ -1,0 +1,16 @@
+{
+  "appId": "com.yourcompany.thermalprinter",
+  "appName": "Thermal Printer",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "capacitor"
+  },
+  "plugins": {
+    "CapacitorThermalPrinter": {
+      "autoConnect": false,
+      "scanTimeout": 15000
+    }
+  }
+}
