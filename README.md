@@ -590,4 +590,4 @@ Pull requests dipersilakan. Untuk major changes, buka issue dulu ya.
 
 ---
 
-**Dibuat dengan ❤️ untuk solusi printer thermal di iOS**
+**Dibuat dengan Notepad++ & VSCode untuk solusi printer thermal di iOS**
