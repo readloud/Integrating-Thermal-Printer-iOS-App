@@ -1,6 +1,6 @@
 # 📱 Masalah Printer Thermal di iOS
 
-Pesan error **"Tidak didukung di browser ini"** untuk koneksi USB dan Bluetooth di iOS adalah **kendala fundamental dari Safari/WebKit**, bukan bug pada aplikasi Anda.
+Pesan error **"Tidak didukung di browser ini"** untuk koneksi USB dan Bluetooth di iOS adalah **kendala fundamental dari Safari/WebKit**, bukan bug pada aplikasi.
 
 ![Alt Text](https://github.com/readloud/IntegratingThermal-Printer-iOS-App/blob/main/Existing%20Web%20App/2026042269e8904511d5b.jpg)
 
@@ -5029,5 +5029,3 @@ Jika langkah di atas tetap tidak bisa mendeteksi printer sama sekali, punya dua 
 Jadi, strateginya adalah:
 - **Langkah 1:** Coba selesaikan setup Xcode dengan benar (poin 1-3 di atas). Ini adalah satu-satunya cara untuk membuat koneksi BLE berfungsi di iOS.
 - **Langkah 2:** Jika semua setup sudah benar tapi tetap tidak ada printer yang muncul saat "Scan BLE", itu pertanda kuat bahwa printer tidak kompatibel dengan BLE. Dalam kasus ini, **tombol AirPrint akan menjadi penyelamat utama**.
-
-Kalau ada kendala saat setup atau error yang muncul, bisa langsung ditanyakan lagi ya.
